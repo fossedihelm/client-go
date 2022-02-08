@@ -1,4 +1,4 @@
-module kubevirt.io/client-go
+module github.com/fossedihelm/client-go
 
 go 1.17
 
@@ -14,7 +14,7 @@ require (
 	github.com/kubernetes-csi/external-snapshotter/v2 v2.1.1
 	github.com/onsi/ginkgo v1.14.1
 	github.com/onsi/gomega v1.10.2
-	github.com/openshift/client-go v0.0.0
+	github.com/openshift/client-go v0.0.0-20210112165513-ebc401615f47
 	github.com/spf13/pflag v1.0.5
 	k8s.io/api v0.23.1
 	k8s.io/apiextensions-apiserver v0.23.1
